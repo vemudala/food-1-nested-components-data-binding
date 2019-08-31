@@ -1,10 +1,15 @@
 # food-1-nested-components-data-binding
-nested components data binding
-
-
+nested components data binding https://github.com/vemudala/food-1-nested-components-data-binding/blob/master/fold-str-child-to-parent.PNG this is we are sending data from headercomp to appcomp //  click event performing in this comp n access in appcomp
+ 
 on clickon selected menuitm show particular menu data and remaining should hide for this we are doing this
 step 1: header component.html has 2 menu items  recipe and shopping list u can see in picture
         add click event onSelected('recipe') and onSelected('Shopping') //see 37 38 lines
+EXAMPLE :pictures :
+b4 https://github.com/vemudala/food-1-nested-components-data-binding/blob/master/before-adding-click-events.PNG
+after https://github.com/vemudala/food-1-nested-components-data-binding/blob/master/onclick-menu-shown-data1.PNG
+after https://github.com/vemudala/food-1-nested-components-data-binding/blob/master/onclick-menu-shown-data2.PNG
+
+
 
 step 2: header component.ts write above click event method
             @Output()  loadedFeature= new EventEmitter<string>() //we want type string is the feature which selected
